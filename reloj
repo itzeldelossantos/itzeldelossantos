@@ -1,13 +1,7 @@
 import time
-horas=24
-minutos=60
-tiempo1=0
-tiempo2= (horas and minutos)
 
-while tiempo1<=tiempo2:
-   print("reproduciendo tiempo:",tiempo2)
-   minutos+=1
-   horas+=1
-time.slepp(1)
-
-
+while True:
+  for hora in range(24):
+    for minuto in range(60):
+      print("{:02d}:{:02d}".format(hora, minuto))
+      time.sleep(0.01)  
