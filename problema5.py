@@ -1,6 +1,6 @@
 sueldo = int(input("Ingrese el sueldo del empleado: "))
-años_trabajo = int(input("Ingrese los años trabajados: "))
-if años_trabajo < 5:
+anios_trabajo = int(input("Ingrese los anios trabajados: "))
+if anios_trabajo < 5:
     antiguedad = sueldo * 0.3
 else:
     antiguedad = sueldo * 0.5
